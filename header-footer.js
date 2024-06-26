@@ -10,4 +10,11 @@ document.addEventListener("DOMContentLoaded", function () {
         .then(data => {
             document.getElementById("footer-placeholder").innerHTML = data;
         });
+
+    fetch("background.html")
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById("background-placeholder").innerHTML = data;
+        });
+
 });
