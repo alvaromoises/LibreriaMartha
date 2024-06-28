@@ -14,113 +14,30 @@
 
 <body>
   <div class="container mt-5">
-    <h1 class="text-center text-white">PRODUCTOS</h1>
-    <hr />
-    <div class="row row-cols-1 row-cols-md-3 g-4">
-      <!-- Producto 1 -->
-      <div class="col">
-        <div class="card">
-          <img src="img/cuaderno loro.jpg" class="card-img-top" alt="cuaderno loro">
-          <div class="card-body">
-            <h5 class="card-title">Cuaderno Loro</h5>
-            <p class="card-text">Cuaderno Loro cuadriculado a 6.30 soles</p>
-          </div>
-        </div>
-      </div>
-      <!-- Producto 2 -->
-      <div class="col">
-        <div class="card">
-          <img src="img/lapiceros pilot.jpg" class="card-img-top" alt="lapiceros pilot">
-          <div class="card-body">
-            <h5 class="card-title">Lapiceros Pilot</h5>
-            <p class="card-text">Lapicero Pilot Frixion 0.7 mm a 8.00 soles</p>
-          </div>
-        </div>
-      </div>
-      <!-- Producto 3 -->
-      <div class="col">
-        <div class="card">
-          <img src="img/mochilas.jpg" class="card-img-top" alt="mochilas">
-          <div class="card-body">
-            <h5 class="card-title">Mochila</h5>
-            <p class="card-text">Mochila escolar verde a 80 soles</p>
-          </div>
-        </div>
-      </div>
-      <!-- Producto 4 -->
-      <div class="col">
-        <div class="card">
-          <img src="img/mouse.jpg" class="card-img-top" alt="mouse">
-          <div class="card-body">
-            <h5 class="card-title">Mouse óptico Microsoft Basic Optical</h5>
-            <p class="card-text">Mouse negro con conexión USB a 50 soles</p>
-          </div>
-        </div>
-      </div>
-      <!-- Producto 5 -->
-      <div class="col">
-        <div class="card">
-          <img src="img/teclado.jpg" class="card-img-top" alt="teclado">
-          <div class="card-body">
-            <h5 class="card-title">Teclado Gaming Colores</h5>
-            <p class="card-text">Teclado gaming con conexión USB a 55 soles</p>
-          </div>
-        </div>
-      </div>
-      <!-- Producto 6 -->
-      <div class="col">
-        <div class="card">
-          <img src="img/audifonos.jpg" class="card-img-top" alt="audifonos">
-          <div class="card-body">
-            <h5 class="card-title">Audifonos Negro</h5>
-            <p class="card-text">Audifonos Negro con Bluetooth a 22.90 soles</p>
-          </div>
-        </div>
-      </div>
-      <!-- Producto 7 -->
-      <div class="col">
-        <div class="card">
-          <img src="img/lampara.jpg" class="card-img-top" alt="lampara">
-          <div class="card-body">
-            <h5 class="card-title">Lámpara de escritorio</h5>
-            <p class="card-text">Lámpara de escritorio clásica lámpara de mesa ajustable madera blanco a 130 soles</p>
-          </div>
-        </div>
-      </div>
-      <!-- Producto 8 -->
-      <div class="col">
-        <div class="card">
-          <img src="img/cortina.jpg" class="card-img-top" alt="cortina">
-          <div class="card-body">
-            <h5 class="card-title">Cortina Beige</h5>
-            <p class="card-text">Cortina Roller Dúo Zebra Día Y Noche Blackout - Beige a 90 soles</p>
-          </div>
-        </div>
-      </div>
-      <!-- Producto 9 -->
-      <div class="col">
-        <div class="card">
-          <img src="img/alfombra.png" class="card-img-top" alt="alfombra">
-          <div class="card-body">
-            <h5 class="card-title">Alfombra</h5>
-            <p class="card-text">Alfombra de 14 milímetros de alto y cuenta con un tacto muy suave a 60 soles</p>
-          </div>
-        </div>
-      </div>
+    <h3 class="text-white text-center">Catálogo de Productos</h3>
+    <div id="product-list" class="row row-cols-1 row-cols-md-3 g-4">
     </div>
-  </div>
-  </br>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
-    crossorigin="anonymous"></script>
-  <script src="header-footer.js">
-  </script>
-</body>
-<footer class="bg-warning text-dark p-4">
-  <div id="footer-placeholder"></div>
-</footer>
 
+    <nav aria-label="Page navigation example">
+      <ul class="pagination justify-content-center" id="pagination">
+
+      </ul>
+    </nav>
+  </div>
+
+  <footer class="bg-warning text-dark p-4">
+    <div id="footer-placeholder"></div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+    </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
+    </script>
+
+  <script src="header-footer.js"></script>
+  <script src="app.js"></script>
+</body>
 </html>
